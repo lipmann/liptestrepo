@@ -25,6 +25,7 @@ Class module_poll extends Controller{
 		echo "new change";
 		echo "new change 2";
 		echo "new change 3";
+		echo "popeye 1";
 		
 		$dataList	=	module_pollMod::_select_active_poll();
 		
