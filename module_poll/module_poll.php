@@ -22,6 +22,8 @@ Class module_poll extends Controller{
 	function show_active(){
 		global $Smarty;
 		
+		echo "new change";
+		
 		$dataList	=	module_pollMod::_select_active_poll();
 		
 		$Smarty->assign(array(
