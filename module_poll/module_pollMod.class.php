@@ -1,9 +1,10 @@
 <?PHP
 class module_pollMod{
 	
-	
 	/**===START===_select_active_poll======================================================================================== **/
 	function _select_active_poll($limit = 10){
+		echo 'popeye mod';
+		
 		$db = Factory::DB(0);
 		
 		$select = "*";

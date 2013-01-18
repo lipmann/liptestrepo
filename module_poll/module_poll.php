@@ -3,6 +3,8 @@
 Class module_poll extends Controller{
 
 	function __preCall(){
+		echo 'popeye';
+		
 		/**=== SETTING ==================================== **/
 		$this->verify_access = false;
 		
